@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+ // componentDidMount(){
+    //   let data ;
+
+    //   axios.get('http://127.0.0.1:8000/quotes/')
+    //   .then(res => {
+    //     data = res.data;
+    //     this.setState({
+    //       details : data
+    //     });
+    //   })
+    //   .catch(err => {})
+    // }
+
+    // render() { 
+    //     return(
+    //         <div>
+    //           {this.state.details.map((details, id) =>(
+    //           <div key = {id}> 
+    //           <div>
+    //                 <div>
+    //                     <h1>{ details.content }</h1>
+    //                     <footer>--- by
+    //                       <cite title="Source Title"> 
+    //                           {details.author} 
+    //                       </cite>
+    //                     </footer>
+    //                 </div>
+    //             </div>
+    //             </div>
+    //             )  
+    //          )}
+    //         </div>
+    //         ); 
+    // } 
